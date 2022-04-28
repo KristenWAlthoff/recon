@@ -1,5 +1,5 @@
 # The Data
-Overall, we are trying to compare the numbers at D0 to the numbers at D1 and see what differences in those numbers are not accounted for by the transactions that took place over the course of the day. To do this, I've converted the incoming space-separated recon.in data into different pandas dataframes. After processing the transaction data to turn it into a summary of changes to either the stocks or the total amount of cash, we can merge the data into one dataframe and quickly check for the discrepancies that we can export and report in our recon.out file.
+Overall, we are trying to compare the data from D0 to the data for D1 and see what differences in those numbers are not accounted for by the transactions that took place over the course of the day. To do this, I've converted the incoming space-separated recon.in data into different pandas dataframes. After processing the transaction data to turn it into a summary of changes to either the stocks or the total amount of cash, we can merge the data into one dataframe and quickly check for the discrepancies that we can export and report in our recon.out file.
 
 
 # Main Steps
